@@ -32,7 +32,7 @@ export default async function ProductPage({ params }: { params: { slug: string }
     <div className="bg-white">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="grid gap-8 md:grid-cols-2">
-          <ImageGallery image={data.image} /> {/* Pass correct field name */}
+          <ImageGallery image={data.image} /> 
           <div>
             <h1 className="text-3xl font-bold">{data.name}</h1>
             <p className="text-gray-500 mt-2">{data.categoryName}</p>
